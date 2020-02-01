@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./nav", "./sec", "./text", "./blue", "./si", "./end";
+@import "./modal_one", "./modal_two", "./modal_three";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    max-width: 1380px;
+    @include navigation();
+    @include sec();
+}

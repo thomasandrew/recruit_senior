@@ -1,0 +1,581 @@
+.text3 {
+  padding: 4%;
+}
+
+.text3 pre {
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 345px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  left: 30px;
+}
+
+.text3 pre p {
+  margin-top: 32px;
+  margin-left: -670px;
+}
+
+.blue {
+  background-color: #40b9ed;
+  padding: 15%;
+  height: 75px;
+}
+
+.blue img {
+  width: 950px;
+  position: relative;
+  left: 10px;
+  bottom: 150px;
+  height: 400px;
+}
+
+.si {
+  height: 300pt;
+}
+
+.si .padrao {
+  border: 2px groove #40b9ed;
+  height: 250px;
+  width: 250px;
+  top: 80px;
+  position: relative;
+  left: 209pt;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.si .padrao img {
+  width: 90px;
+  position: relative;
+  left: 90px;
+  top: 70px;
+}
+
+.si .padrao #formulario {
+  position: relative;
+  top: 100px;
+  left: 29px;
+  color: #40b9ed;
+  font-size: 21px;
+}
+
+.si .por_video {
+  border: 2px groove #40b9ed;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 562px;
+  bottom: 174px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.si .por_video img {
+  position: relative;
+  left: 85px;
+  top: 70px;
+  width: 90px;
+}
+
+.si .por_video #cad_video {
+  position: relative;
+  top: 102px;
+  left: 47px;
+  color: #40b9ed;
+  font-size: 21px;
+}
+
+.si .whatsapp {
+  border: 2px groove #40b9ed;
+  height: 250px;
+  width: 250px;
+  float: right;
+  bottom: 427px;
+  position: relative;
+  right: 246px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.si .whatsapp img {
+  position: relative;
+  width: 90px;
+  left: 80px;
+  top: 70px;
+}
+
+.si .whatsapp #cad_whatsapp {
+  position: relative;
+  top: 102px;
+  left: 82px;
+  color: #40b9ed;
+  font-size: 21px;
+}
+
+.end {
+  padding: 16%;
+  background-color: #202020;
+  color: #666;
+  height: 6px;
+}
+
+.end p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  margin-top: -170px;
+  margin-left: -130px;
+  font-size: 20px;
+}
+
+.end pre {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.9;
+  margin-top: 13px;
+  margin-left: -128px;
+}
+
+.text6 {
+  margin-left: 430px;
+  width: 90px;
+  position: relative;
+  bottom: 25px;
+}
+
+.text6 pre {
+  font-size: 14px;
+}
+
+.text7 {
+  width: 20px;
+  margin-left: 900px;
+  margin-top: 90px;
+  position: relative;
+  bottom: 312px;
+}
+
+.links {
+  padding: -20px;
+  width: 20px;
+  margin-left: 350px;
+}
+
+.links .facebook {
+  border: 1px solid #666;
+  width: 40px;
+  margin-top: -150px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 9px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.links .facebook img {
+  width: 20px;
+  height: 25px;
+  margin-left: 9px;
+  margin-top: 8px;
+}
+
+.links .facebook:hover {
+  background-color: #3b5998;
+}
+
+.links .twitter {
+  border: 1px solid #666;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 60px;
+  margin-top: -42px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.links .twitter img {
+  width: 20px;
+  height: 25px;
+  margin-left: 11px;
+  margin-top: 8px;
+}
+
+.links .twitter:hover {
+  background-color: #00ACEE;
+}
+
+.links .linkedin {
+  border: 1px solid #666;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 110px;
+  margin-top: -42px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.links .linkedin img {
+  width: 20px;
+  height: 25px;
+  margin-left: 11px;
+  margin-top: 6px;
+}
+
+.links .linkedin:hover {
+  background-color: #0E76A8;
+}
+
+.links .instagram {
+  border: 1px solid #666;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 160px;
+  margin-top: -42px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.links .instagram img {
+  width: 22px;
+  height: 25px;
+  margin-left: 9px;
+  margin-top: 8px;
+}
+
+.links .instagram:hover {
+  background-color: #3F729B;
+}
+
+.bg_modal {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.bg_modal .modal-content {
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.bg_modal .modal-content .x_btn1 {
+  font-size: 30px;
+  float: right;
+  position: relative;
+  right: 15px;
+  top: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.bg_modal .modal-content .sig {
+  position: relative;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 265px;
+  top: 90px;
+  color: #666;
+}
+
+.bg_modal .modal-content .sign_in {
+  position: relative;
+  top: 150px;
+  left: 185px;
+}
+
+.bg_modal .modal-content .sign_in #one {
+  width: 45%;
+  border: 2px groove #40b9ed;
+  border-radius: 30px;
+  height: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.bg_modal .modal-content .sign_in #two {
+  width: 45%;
+  border: 2px groove #40b9ed;
+  border-radius: 30px;
+  height: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.bg_modal .modal-content .sign_in #three {
+  width: 45%;
+  border: 2px groove #40b9ed;
+  border-radius: 30px;
+  height: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.bg_modal .modal-content .sign_in #submit {
+  width: 45%;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  outline: none;
+  background-color: #40b9ed;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bg_modal2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.bg_modal2 .modal-content2 {
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.bg_modal2 .modal-content2 .x_btn2 {
+  font-size: 30px;
+  float: right;
+  position: relative;
+  right: 15px;
+  top: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.bg_modal3 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.bg_modal3 .modal-content3 {
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.bg_modal3 .modal-content3 .x_btn3 {
+  font-size: 30px;
+  float: right;
+  position: relative;
+  right: 15px;
+  top: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.bg_modal3 .modal-content3 img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 270px;
+  top: 100pt;
+}
+
+.bg_modal3 .modal-content3 p {
+  position: relative;
+  top: 270pt;
+  font-size: 30px;
+  left: 250px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  max-width: 1380px;
+}
+
+.main .up {
+  border: none;
+  padding: 30px;
+}
+
+.main .up #title {
+  border: 2px groove #40b9ed;
+  color: #40b9ed;
+  font-size: 31px;
+  width: 210px;
+  text-align: center;
+  cursor: context-menu;
+}
+
+.main .up nav {
+  margin-left: 17%;
+  margin-top: -30px;
+}
+
+.main .up nav ul li {
+  display: inline-block;
+  margin-left: 45px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.main .up nav ul li:hover {
+  border: none;
+  background-color: #40b9ed;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.main .up .singin {
+  float: right;
+  margin-top: -23px;
+}
+
+.main .up .singin ul li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.main .up .singin ul li:hover {
+  border: none;
+  border-radius: 3px;
+  background-color: #37b9d3;
+  color: #fff;
+}
+
+.main .unicode {
+  display: none;
+}
+
+.main section {
+  width: 100%;
+  height: 560px;
+  background: url(img/idosotrab.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.main section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.main section .overlay #text1 {
+  color: #fff;
+  font-size: 57px;
+  position: relative;
+  bottom: -120px;
+  left: 136px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main section .overlay #text2 {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 150px;
+  left: 106pt;
+}
+
+.main section .overlay .btn {
+  margin-top: 200px;
+  margin-left: 143px;
+}
+
+.main section .overlay .btn #btn1 {
+  background-color: #40b9ed;
+  color: white;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.main section .overlay .btn #btn2 {
+  width: 245px;
+  height: 60px;
+  font-size: 20px;
+  color: #666;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=recruit_senior.css.map */

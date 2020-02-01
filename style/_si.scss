@@ -1,0 +1,73 @@
+.si {
+    height: 300pt;
+    .padrao {
+        border: 2px groove #40b9ed;
+        height: 250px;
+        width: 250px;
+        top: 80px;
+        position: relative;
+        left: 209pt;
+        border-radius: 25px;
+        cursor: pointer;
+        img {
+            width: 90px;
+            position: relative;
+            left: 90px;
+            top: 70px;
+        }
+        #formulario {
+            position: relative;
+            top: 100px;
+            left: 29px;
+            color: #40b9ed;
+            font-size: 21px;
+        }
+    }
+    .por_video {
+        border: 2px groove #40b9ed;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left: 562px;
+        bottom: 174px;
+        border-radius: 25px;
+        cursor: pointer;
+        img {
+            position: relative;
+            left: 85px;
+            top: 70px;
+            width: 90px;
+        }
+        #cad_video {
+            position: relative;
+            top: 102px;
+            left: 47px;
+            color: #40b9ed;
+            font-size: 21px;
+        }
+    }
+    .whatsapp {
+        border: 2px groove #40b9ed;
+        height: 250px;
+        width: 250px;
+        float: right;
+        bottom: 427px;
+        position: relative;
+        right: 246px;
+        border-radius: 20px;
+        cursor: pointer;
+        img {
+            position: relative;
+            width: 90px;
+            left: 80px;
+            top: 70px;
+        }
+        #cad_whatsapp {
+            position: relative;
+            top: 102px;
+            left: 82px;
+            color: #40b9ed;
+            font-size: 21px;
+        }
+    }
+}
