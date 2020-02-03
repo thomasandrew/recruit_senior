@@ -1,2 +1,2 @@
 # recruit_senior
-A website that i made for the hackathib
+A website that i made for the hackathon
