@@ -33,7 +33,6 @@ function sub() {
         cpf.placeholder = "CPF"
         cpf.style.borderColor = '#40b9ed'
     }
-
 }
 
 
