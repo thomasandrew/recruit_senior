@@ -9,8 +9,6 @@ $host = "127.0.0.1";
 $user = "root";
 $pass = "";
 
-$u->connect($dbname, $host, $user, $pass);
-
 ?>
 
 <!DOCTYPE html>
@@ -28,16 +26,16 @@ $u->connect($dbname, $host, $user, $pass);
             <p id="title">Recruit Senior</p>
             <nav>
                 <ul>
-                 <li><strong>Home</strong></li>
-                 <li><strong>about</strong></li>
-                 <li><strong>sou 50+</strong></li>
-                 <li><strong>contato</strong></li>
+                 <li><a href="#"><strong>Home</strong></a></li> 
+                 <li><a href="#"><strong>about</strong></a></li>
+                 <li><a href="#"><strong>sou 50+</strong></a></li>
+                 <li><a href="#"><strong>contato</strong></a></li>
                 </ul>
             </nav>
             <div class="singin">
                 <ul>
-                    <li><strong>Cadastre-se</strong></li>
-                    <li><strong>Entrar</strong></li>
+                    <li><a href="#"><strong>Cadastre-se</strong></a></li>
+                    <li><a href="#"><strong>Entrar</strong></a></li>
                 </ul>
             </div>
             <div class="unicode">
@@ -51,8 +49,8 @@ $u->connect($dbname, $host, $user, $pass);
                     O RecruitSenior é uma plataforma pioneira no Brasil, que reúne oportunidades de trabalho, desenvolvimento<br><br>pessoal, capacitação profissional, empreendedorismo e networking, com o objetivo de conectar pessoas<br><br>maduras e experientes em busca de atividade e ocupação entre si e com empresas.
                 </p>
                 <div class="btn">
-                    <input type="button" value="Sou um profisional 50+" id="btn1"> 
-                    <input type="button" value="Sou uma impresa" id="btn2">
+                    <a href="#"><input type="button" value="Sou um profisional 50+" id="btn1"></a>
+                    <a href="#"></a><input type="button" value="Sou uma impresa" id="btn2"></a>
                 </div>
             </div>
         </section>
@@ -64,22 +62,22 @@ $u->connect($dbname, $host, $user, $pass);
 
         </div>
         <div class="blue">
-            <img src="icone1.png" alt=""> 
+            <img src="img/icone1.png" alt=""> 
         </div> 
 
         <div class="si">
             <div class="padrao">
-                <img src="verified-text-paper.png">
+                <img src="img/verified-text-paper.png">
                 <p id="formulario">Cadastro por formulario</p>
             </div>
             
             <div class="por_video">
-                <img src="video-camera.png">
+                <img src="img/video-camera.png">
                 <p id="cad_video">cadastro por video</p>
             </div> 
             
             <div class="whatsapp">
-                <img src="whatsapp-logo-variant.png">
+                <img src="img/whatsapp-logo-variant.png">
                 <p id="cad_whatsapp">whatsapp</p>
             </div>
         </div>
@@ -99,16 +97,16 @@ $u->connect($dbname, $host, $user, $pass);
 
             <div class="links">
                 <div class="facebook">
-                    <img src="facebook-logo.png" alt="">
+                    <img src="img/facebook-logo.png" alt="">
                 </div>
                 <div class="twitter">
-                    <img src="twitter.png" alt="">
+                    <img src="img/twitter.png" alt="">
                 </div>
                 <div class="linkedin">
-                    <img src="linkedin-logo.png" alt="">
+                    <img src="img/linkedin-logo.png" alt="">
                 </div>
                 <div class="instagram">
-                    <img src="instagram-logo.png" alt="">
+                    <img src="img/instagram-logo.png" alt="">
                 </div>
             </div>
 
@@ -123,7 +121,7 @@ $u->connect($dbname, $host, $user, $pass);
             <div class="x_btn1">+</div>
             <p class="sig">Cadastrar</p>
             <div class="sign_in">
-            <form action="" method="post">
+            <form action="" method="post" onsubmit="sub()">
                 <input type="text" name="name" placeholder="Nome" id="one">
                 <br>
                 <input type="text" name="telefone" placeholder="Telefone" id="two">
@@ -139,7 +137,15 @@ $u->connect($dbname, $host, $user, $pass);
                         $tel = addslashes($_POST['telefone']);
                         $cpf = addslashes($_POST['cpf']);
 
-                        $u->queryBiulder($name, $tel, $cpf);
+                        if (!empty($name) && !empty($tel) && !empty($cpf)) {
+                            
+                            $u->connect($dbname, $host, $user, $pass);
+                            
+                            $u->queryBiulder($name, $tel, $cpf);
+
+                        } else {
+                            print "<script>alert('Erro')</script>";
+                        }
                     }
 
                 ?>
@@ -162,8 +168,8 @@ $u->connect($dbname, $host, $user, $pass);
     <div class="bg_modal3">
         <div class="modal-content3">
             <div class="x_btn3">+</div>
-            <img src="whatsapp-logo-1.png" alt="">
-            <p>1111111111111</p>
+            <img src="img/whatsapp-logo-1.png" alt="">
+            <p>(21) 3435-9021</p>
         </div>
     </div>
 
