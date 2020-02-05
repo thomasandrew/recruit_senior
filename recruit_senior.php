@@ -26,16 +26,16 @@ $pass = "";
             <p id="title">Recruit Senior</p>
             <nav>
                 <ul>
-                 <li><a href="#"><strong>Home</strong></a></li> 
-                 <li><a href="#"><strong>about</strong></a></li>
-                 <li><a href="#"><strong>sou 50+</strong></a></li>
-                 <li><a href="#"><strong>contato</strong></a></li>
+                 <li><strong>Home</strong></li> 
+                 <li><strong>about</strong></li>
+                 <li><strong>sou 50+</strong></li>
+                 <li><strong>contato</strong></li>
                 </ul>
             </nav>
             <div class="singin">
                 <ul>
-                    <li><a href="#"><strong>Cadastre-se</strong></a></li>
-                    <li><a href="#"><strong>Entrar</strong></a></li>
+                    <li><strong>Cadastre-se</strong></li>
+                    <li><strong>Entrar</strong></li>
                 </ul>
             </div>
             <div class="unicode">
@@ -88,11 +88,11 @@ $pass = "";
             </div>
             <div class="text6">
                 <p>Reconhecimento</p>
-                <pre>A MaturiJobs foi reconhecida pelo SEBRAE e pelo<br>PNUD Brasil no Prêmio Incluir 2017 como negócio de<br>impacto social alinhado aos Objetivos do<br>Desenvolvimento Sustentável da ONU na categoria<br>Soluções para Melhor Idade. Em 2018 recebemos<br>o Selo Municipal de Diversidade e Direitos Humanos<br>de São Paulo, na categoria Pessoa Idosa.</pre>
+                <pre>A RecruitSenior foi reconhecida pelo SEBRAE e pelo<br>PNUD Brasil no Prêmio Incluir 2017 como negócio de<br>impacto social alinhado aos Objetivos do<br>Desenvolvimento Sustentável da ONU na categoria<br>Soluções para Melhor Idade. Em 2018 recebemos<br>o Selo Municipal de Diversidade e Direitos Humanos<br>de São Paulo, na categoria Pessoa Idosa.</pre>
             </div>
             <div class="text7">
                 <p>Comunidade</p>
-                <pre>Faça parte do grupo "Comunidade MaturiJobs" no<br>Facebook e participe dessa comunidade virtual<br>que debate o tema de trabalho na maturidade e<br>muito mais.</pre>
+                <pre>Faça parte do grupo "Comunidade RecruitSenior"<br>no Facebook e participe dessa comunidade virtual<br>que debate o tema de trabalho na maturidade e<br>muito mais.</pre>
             </div>
 
             <div class="links">
